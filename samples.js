@@ -1,0 +1,39 @@
+/* Source-based starter research, reviewed November 8, 2026. */
+const SAMPLE_ENTRIES = [
+  {
+    "id": "lettuce-hydro-ph",
+    "crop": "Lettuce",
+    "method": "Hydroponic",
+    "category": "pH & nutrients",
+    "note": "Oklahoma State lists a hydroponic pH range of 6.0–7.0 for lettuce. Treat this as a source-specific starting range and compare it with the needs of the chosen variety and system.",
+    "url": "https://extension.okstate.edu/fact-sheets/electrical-conductivity-and-ph-guide-for-hydroponics",
+    "createdAt": "2026-11-08T12:00:00.000Z"
+  },
+  {
+    "id": "basil-hydro-ph",
+    "crop": "Basil",
+    "method": "Hydroponic",
+    "category": "pH & nutrients",
+    "note": "Oklahoma State lists a hydroponic pH range of 5.5–6.0 for basil. Measure the nutrient solution regularly rather than assuming that the initial pH stays unchanged.",
+    "url": "https://extension.okstate.edu/fact-sheets/electrical-conductivity-and-ph-guide-for-hydroponics",
+    "createdAt": "2026-11-08T12:00:01.000Z"
+  },
+  {
+    "id": "lettuce-soil-water",
+    "crop": "Lettuce",
+    "method": "Soil-based",
+    "category": "Watering",
+    "note": "Lettuce has shallow roots. Minnesota Extension gives about one inch of weekly rainfall as adequate and recommends more frequent watering in sandy soil. Check soil moisture; this outdoor guideline is not a fixed dose for an indoor pot.",
+    "url": "https://extension.umn.edu/vegetables/growing-lettuce-endive-and-radicchio",
+    "createdAt": "2026-11-08T12:00:02.000Z"
+  },
+  {
+    "id": "basil-soil-harvest",
+    "crop": "Basil",
+    "method": "Soil-based",
+    "category": "Harvesting",
+    "note": "Prune basil periodically during the growing season to keep growth productive and tender. When harvesting whole stems, cut just above a pair of leaves so new growth can develop there.",
+    "url": "https://extension.umn.edu/vegetables/growing-basil",
+    "createdAt": "2026-11-08T12:00:03.000Z"
+  }
+];

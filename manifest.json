@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Crop Library",
+  "version": "1.0.0",
+  "description": "Save and organize crop research for hydroponic and soil-based growing.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Crop Library"
+  }
+}
